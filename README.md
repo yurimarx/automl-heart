@@ -1,11 +1,7 @@
-# integratedml-demo-template
-This is a template for IntegratedML - InterSystems Github repository.
-
 ## About Health Data Application
 This is an application to get Health Data sample for AutoML and another types of applications
 
 ## Installation
-
 Clone/git pull the repo into any local directory
 
 ```

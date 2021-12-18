@@ -1,0 +1,15 @@
+    ; run installer to create namespace
+    do $SYSTEM.OBJ.Load("/opt/irisapp/Installer.cls", "ck")
+    set sc = ##class(App.Installer).setup() 
+
+    zn "USER"
+    zpm "install csvgen"
+    Do ##class(community.csvgen).Generate("/opt/irisapp/data/heart-disease.csv",",","dc.data.health.HeartDisease") 
+    
+    ;zpm "load /opt/irisapp/ -v"
+    zpm "load /opt/irisapp/ -v -Dfolder=irisapp"
+
+    zn "%SYS" 
+    w ##class(Security.Users).UnExpireUserPasswords("*")
+   
+    halt

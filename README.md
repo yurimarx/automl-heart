@@ -14,7 +14,7 @@ Open a Docker terminal in this directory and run:
 $ docker-compose build
 ```
 
-3. Run the IRIS container, and Jupyter notebook server images:
+3. Run the IRIS container:
 
 ```
 $ docker-compose up -d
@@ -25,6 +25,12 @@ $ docker-compose up -d
 SELECT 
 age, bp, chestPainType, cholesterol, ekgResults, exerciseAngina, fbsOver120, heartDisease, maxHr, numberOfVesselsFluro, sex, slopeOfSt, stDepression, thallium
 FROM dc_data_health.HeartDisease
+```
+
+### To install with ZPM
+It's packaged with ZPM so it could be installed as:
+```
+zpm "install automl-heart"
 ```
 
 ## In the future

@@ -2,13 +2,13 @@
 This is an application to get Health Data sample for AutoML and another types of applications
 
 ## Installation
-Clone/git pull the repo into any local directory
+1. Clone/git pull the repo into any local directory
 
 ```
 $ git clone https://github.com/yurimarx/automl-heart.git
 ```
 
-Open a Docker terminal in this directory and run:
+2. Open a Docker terminal in this directory and run:
 
 ```
 $ docker-compose build

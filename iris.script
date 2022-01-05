@@ -7,6 +7,7 @@
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/heart-disease.csv",",","dc.data.health.HeartDisease") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/breast-cancer.csv",",","dc.data.health.BreastCancer") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/diabetes.csv",",","dc.data.health.Diabetes") 
+    Do ##class(community.csvgen).Generate("/opt/irisapp/data/kidney_disease.csv",",","dc.data.health.KidneyDisease") 
     ; Set params = {"from":{"file":{"header":"1"}}}
     ; Do ##class(%SQL.Statement).%ExecDirect("LOAD DATA FROM FILE '/opt/irisapp/data/breast-cancer.csv' INTO dc_data_health.BreastCancer USING "_params.%ToJSON())
     ;zpm "load /opt/irisapp/ -v"

@@ -1,4 +1,4 @@
-/// datasource from https://data.world/informatics-edu/heart-disease-prediction/workspace/data-dictionary 
+/// dataset from https://data.world/informatics-edu/heart-disease-prediction 
 Class dc.data.health.HeartDisease Extends %Persistent [ SqlRowIdPrivate ]
 {
 

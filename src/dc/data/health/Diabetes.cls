@@ -1,4 +1,4 @@
-/// Dataset from: https://www.kaggle.com/mathchi/diabetes-data-set?select=diabetes.csv
+/// Dataset from: https://www.kaggle.com/mathchi/diabetes-data-set
 Class dc.data.health.Diabetes Extends %Persistent [ SqlRowIdPrivate ]
 {
 

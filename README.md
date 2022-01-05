@@ -1,5 +1,18 @@
 ## About Health Data Application
-This is an application to get Health Data sample for AutoML and another types of applications
+This is an application to get Health Data samples for AutoML and another types of applications.
+
+According to the WHO, The top global causes of death, in order of total number of lives lost, are associated with three broad topics (source: https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death):
+
+1. Cardiovascular (ischaemic heart disease, stroke), 
+2. Respiratory (chronic obstructive pulmonary disease, lower respiratory infections) and 
+3. Neonatal conditions – which include birth asphyxia and birth trauma, neonatal sepsis and infections, and preterm birth complications.
+
+This application provides real data (without personal data) for some of these top 10 scenarios of diseases identified by WHO. The datasets for this application are:
+ - Diabetes dataset: data to predict diabetes diagnosis
+ - Heart Disease: data to predict heart disease
+ - Kidney Disease: data to predict kidney disease
+ - Breast Cancer: data to predict breast cancer
+
 
 ## Installation
 1. Clone/git pull the repo into any local directory
@@ -20,11 +33,32 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-4. Do a Select to the sample data (HeartDisease):
+4. Do a Select to the HeartDisease dataset:
 ```
 SELECT 
 age, bp, chestPainType, cholesterol, ekgResults, exerciseAngina, fbsOver120, heartDisease, maxHr, numberOfVesselsFluro, sex, slopeOfSt, stDepression, thallium
 FROM dc_data_health.HeartDisease
+```
+
+5. Do a Select to the Kidney Disease dataset:
+```
+SELECT 
+age, al, ane, appet, ba, bgr, bp, bu, cad, classification, dm, hemo, htn, pc, pcc, pcv, pe, pot, rbc, rc, sc, sg, sod, su, wc
+FROM dc_data_health.KidneyDisease
+```
+
+5. Do a Select to the Diabetes dataset:
+```
+SELECT 
+Outcome, age, bloodpressure, bmi, diabetespedigree, glucose, insulin, pregnancies, skinthickness
+FROM dc_data_health.Diabetes
+```
+
+6. Do a Select to the Breast Cancer dataset:
+```
+SELECT 
+areamean, arease, areaworst, compactnessmean, compactnessse, compactnessworst, concavepointsmean, concavepointsse, concavepointsworst, concavitymean, concavityse, concavityworst, diagnosis, fractaldimensionmean, fractaldimensionse, fractaldimensionworst, perimetermean, perimeterse, perimeterworst, radiusmean, radiusse, radiusworst, smoothnessmean, smoothnessse, smoothnessworst, symmetrymean, symmetryse, symmetryworst, texturemean, texturese, textureworst
+FROM dc_data_health.BreastCancer
 ```
 
 ### To install with ZPM
@@ -33,5 +67,15 @@ It's packaged with ZPM so it could be installed as:
 zpm "install automl-heart"
 ```
 
-## In the future
-In the future more data about health will be stored here
+## Dataset Licenses and sources/credits
+1. MIT License for the Application
+2. CC BY-NC-SA 4.0 License for the Breast Cancer Dataset - Source: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+3. CC0: Public Domain for Diabetes Dataset - Source: https://www.kaggle.com/mathchi/diabetes-data-set
+4. CC0: Public Domain for Heart Disease - Source: https://data.world/informatics-edu/heart-disease-prediction
+5. CC0: Public Domain for Kidney Disease - Source:
+    - @misc{Dua:2019 ,
+    - author = "Dua, Dheeru and Graff, Casey",
+    - year = "2017",
+    - title = "{UCI} Machine Learning Repository",
+    - url = "http://archive.ics.uci.edu/ml",
+    - institution = "University of California, Irvine, School of Information and Computer Sciences" }

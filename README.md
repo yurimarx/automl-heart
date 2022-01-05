@@ -12,6 +12,7 @@ This application provides real data (without personal data) for some of these to
  - Heart Disease: data to predict heart disease
  - Kidney Disease: data to predict kidney disease
  - Breast Cancer: data to predict breast cancer
+ - Maternal Risk: data to predict maternal risk level 
 
 
 ## Installation
@@ -47,18 +48,25 @@ age, al, ane, appet, ba, bgr, bp, bu, cad, classification, dm, hemo, htn, pc, pc
 FROM dc_data_health.KidneyDisease
 ```
 
-5. Do a Select to the Diabetes dataset:
+6. Do a Select to the Diabetes dataset:
 ```
 SELECT 
 Outcome, age, bloodpressure, bmi, diabetespedigree, glucose, insulin, pregnancies, skinthickness
 FROM dc_data_health.Diabetes
 ```
 
-6. Do a Select to the Breast Cancer dataset:
+7. Do a Select to the Breast Cancer dataset:
 ```
 SELECT 
 areamean, arease, areaworst, compactnessmean, compactnessse, compactnessworst, concavepointsmean, concavepointsse, concavepointsworst, concavitymean, concavityse, concavityworst, diagnosis, fractaldimensionmean, fractaldimensionse, fractaldimensionworst, perimetermean, perimeterse, perimeterworst, radiusmean, radiusse, radiusworst, smoothnessmean, smoothnessse, smoothnessworst, symmetrymean, symmetryse, symmetryworst, texturemean, texturese, textureworst
 FROM dc_data_health.BreastCancer
+```
+
+8. Do a Select to the Maternal Health Risk dataset:
+```
+SELECT 
+BS, BodyTemp, DiastolicBP, HeartRate, RiskLevel, SystolicBP, age
+FROM dc_data_health.MaternalHealthRisk
 ```
 
 ### To install with ZPM
@@ -72,7 +80,8 @@ zpm "install automl-heart"
 2. CC BY-NC-SA 4.0 License for the Breast Cancer Dataset - Source: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 3. CC0: Public Domain for Diabetes Dataset - Source: https://www.kaggle.com/mathchi/diabetes-data-set
 4. CC0: Public Domain for Heart Disease - Source: https://data.world/informatics-edu/heart-disease-prediction
-5. CC0: Public Domain for Kidney Disease - Source:
+5. CC0: Public Domain for Maternal Health Risk - Source: https://www.kaggle.com/yasserhessein/classification-maternal-health-5-algorithms-ml/data 
+6. CC0: Public Domain for Kidney Disease - Source:
     - @misc{Dua:2019 ,
     - author = "Dua, Dheeru and Graff, Casey",
     - year = "2017",

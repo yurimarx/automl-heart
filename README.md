@@ -79,6 +79,13 @@ age, aniongap, atrialfibrillation, basophils, bicarbote, bloodcalcium, bloodpota
 FROM dc_data_health.HospitalMortality
 ```
 
+10. Do a Select to the Life Expectancy dataset:
+```
+SELECT 
+AdultMortality, Alcohol, BMI, Country, Diphtheria, GDP, HIVAIDS, HepatitisB, IncomeCompositionOfResources, InfantDeaths, LifeExpectancy, Measles, PercentageExpenditure, Polio, Population, Schooling, Status, Thinness1To19Years, Thinness5To9Years, TotalExpenditure, UnderFiveDeaths, Year
+FROM dc_data_health.LifeExpectancy
+```
+
 ### To install with ZPM
 It's packaged with ZPM so it could be installed as:
 ```

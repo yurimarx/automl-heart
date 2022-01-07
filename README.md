@@ -89,7 +89,7 @@ FROM dc_data_health.LifeExpectancy
 ### To install with ZPM
 It's packaged with ZPM so it could be installed as:
 ```
-zpm "install automl-heart"
+zpm "install dataset-health"
 ```
 
 ## Dataset Licenses and sources/credits

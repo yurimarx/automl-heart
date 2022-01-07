@@ -8,13 +8,15 @@ According to the WHO, The top global causes of death, in order of total number o
 3. Neonatal conditions – which include birth asphyxia and birth trauma, neonatal sepsis and infections, and preterm birth complications.
 
 This application provides real data (without personal data) for some of these top 10 scenarios of diseases identified by WHO. The datasets for this application are:
- - Diabetes dataset: data to predict diabetes diagnosis
- - Heart Disease dataset: data to predict heart disease
- - Kidney Disease dataset: data to predict kidney disease
- - Breast Cancer dataset: data to predict breast cancer
- - Maternal Risk dataset: data to predict maternal risk level
- - Hospital Mortality dataset: data to predict hospital mortality 
+ - **Diabetes dataset**: data to predict diabetes diagnosis
+ - **Heart Disease dataset**: data to predict heart disease
+ - **Kidney Disease dataset**: data to predict kidney disease
+ - **Breast Cancer dataset**: data to predict breast cancer
+ - **Maternal Risk dataset**: data to predict maternal risk level
+ - **Hospital Mortality dataset**: data to predict hospital mortality
+ - **World Life Expectancy dataset**: data to predict life expectancy based in the country social and health indicators 
 
+**NOW WE HAVE 7 DATASETS!!!**
 
 ## Installation
 1. Clone/git pull the repo into any local directory

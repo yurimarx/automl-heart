@@ -3,8 +3,9 @@
 3. CC0: Public Domain for Diabetes Dataset - Source: https://www.kaggle.com/mathchi/diabetes-data-set
 4. CC0: Public Domain for Heart Disease - Source: https://data.world/informatics-edu/heart-disease-prediction
 5. CC0: Public Domain for Maternal Health Risk - Source: https://www.kaggle.com/yasserhessein/classification-maternal-health-5-algorithms-ml/data 
-6. CC0 1.0 Universal (CC0 1.0) Public Domain Dedication for Hospital Mortality - Source: https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Zhou, Jingmin et al. (2021), Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database, Dryad, Dataset, https://doi.org/10.5061/dryad.0p2ngf1zd) 
-7. CC0: Public Domain for Kidney Disease - Source:
+6. CC0: Public Domain for World Life Expectancy - Source: https://www.kaggle.com/kumarajarshi/life-expectancy-who - The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang. 
+7. CC0 1.0 Universal (CC0 1.0) Public Domain Dedication for Hospital Mortality - Source: https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Zhou, Jingmin et al. (2021), Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database, Dryad, Dataset, https://doi.org/10.5061/dryad.0p2ngf1zd) 
+8. CC0: Public Domain for Kidney Disease - Source:
     - @misc{Dua:2019 ,
     - author = "Dua, Dheeru and Graff, Casey",
     - year = "2017",

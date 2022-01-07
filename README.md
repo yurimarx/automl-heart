@@ -9,10 +9,11 @@ According to the WHO, The top global causes of death, in order of total number o
 
 This application provides real data (without personal data) for some of these top 10 scenarios of diseases identified by WHO. The datasets for this application are:
  - Diabetes dataset: data to predict diabetes diagnosis
- - Heart Disease: data to predict heart disease
- - Kidney Disease: data to predict kidney disease
- - Breast Cancer: data to predict breast cancer
- - Maternal Risk: data to predict maternal risk level 
+ - Heart Disease dataset: data to predict heart disease
+ - Kidney Disease dataset: data to predict kidney disease
+ - Breast Cancer dataset: data to predict breast cancer
+ - Maternal Risk dataset: data to predict maternal risk level
+ - Hospital Mortality dataset: data to predict hospital mortality 
 
 
 ## Installation
@@ -69,6 +70,13 @@ BS, BodyTemp, DiastolicBP, HeartRate, RiskLevel, SystolicBP, age
 FROM dc_data_health.MaternalHealthRisk
 ```
 
+9. Do a Select to the Hospital Mortality dataset:
+```
+SELECT 
+age, aniongap, atrialfibrillation, basophils, bicarbote, bloodcalcium, bloodpotassium, bloodsodium, bmi, chdwithnomi, chloride, copd, creatinekise, creatinine, deficiencyanemias, depression, diabetes, diastolicbloodpressure, ef, gendera, glucose, "group", heartrate, hematocrit, hyperlipemia, hypertensive, inr, lacticaacid, leucocyte, lymphocyte, magnesiumion, mch, mchc, mcv, neutrophils, ntprobnp, outcome, pco2, ph, platelets, pt, rbc, rdw, relfailure, respiratoryrate, spo2, systolicbloodpressure, temperature, ureanitrogen, urineoutput
+FROM dc_data_health.HospitalMortality
+```
+
 ### To install with ZPM
 It's packaged with ZPM so it could be installed as:
 ```
@@ -76,12 +84,13 @@ zpm "install automl-heart"
 ```
 
 ## Dataset Licenses and sources/credits
-1. MIT License for the Application
+1. MIT License for this Application
 2. CC BY-NC-SA 4.0 License for the Breast Cancer Dataset - Source: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 3. CC0: Public Domain for Diabetes Dataset - Source: https://www.kaggle.com/mathchi/diabetes-data-set
 4. CC0: Public Domain for Heart Disease - Source: https://data.world/informatics-edu/heart-disease-prediction
 5. CC0: Public Domain for Maternal Health Risk - Source: https://www.kaggle.com/yasserhessein/classification-maternal-health-5-algorithms-ml/data 
-6. CC0: Public Domain for Kidney Disease - Source:
+6. CC0 1.0 Universal (CC0 1.0) Public Domain Dedication for Hospital Mortality - Source: https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Zhou, Jingmin et al. (2021), Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database, Dryad, Dataset, https://doi.org/10.5061/dryad.0p2ngf1zd) 
+7. CC0: Public Domain for Kidney Disease - Source:
     - @misc{Dua:2019 ,
     - author = "Dua, Dheeru and Graff, Casey",
     - year = "2017",

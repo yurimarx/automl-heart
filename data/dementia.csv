@@ -1,4 +1,4 @@
-Group,Visit,MRDelay,Genre,Hand,Age,EDUC,SES,MMSE,CDR,eTIV,nWBV,ASF
+Outcome,Visit,MRDelay,Genre,Hand,Age,EDUC,SES,MMSE,CDR,eTIV,nWBV,ASF
 Nondemented,1,0,M,R,87,14,2,27,0,1987,0.696,0.883
 Nondemented,2,457,M,R,88,14,2,30,0,2004,0.681,0.876
 Demented,1,0,M,R,75,12,,23,0.5,1678,0.736,1.046

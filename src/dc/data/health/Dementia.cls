@@ -2,7 +2,7 @@
 Class dc.data.health.Dementia Extends %Persistent [ SqlRowIdPrivate ]
 {
 
-Property Group As %String;
+Property Outcome As %String;
 
 Property Visit As %Integer;
 
@@ -35,7 +35,7 @@ Storage Default
 <Value>%%CLASSNAME</Value>
 </Value>
 <Value name="2">
-<Value>Group</Value>
+<Value>Outcome</Value>
 </Value>
 <Value name="3">
 <Value>Visit</Value>

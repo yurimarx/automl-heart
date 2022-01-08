@@ -1,14 +1,35 @@
 1. MIT License for this Application
-2. CC BY-NC-SA 4.0 License for the Breast Cancer Dataset - Source: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
-3. CC0: Public Domain for Diabetes Dataset - Source: https://www.kaggle.com/mathchi/diabetes-data-set
-4. CC0: Public Domain for Heart Disease - Source: https://data.world/informatics-edu/heart-disease-prediction
-5. CC0: Public Domain for Maternal Health Risk - Source: https://www.kaggle.com/yasserhessein/classification-maternal-health-5-algorithms-ml/data 
-6. CC0: Public Domain for World Life Expectancy - Source: https://www.kaggle.com/kumarajarshi/life-expectancy-who - The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang. 
-7. CC0 1.0 Universal (CC0 1.0) Public Domain Dedication for Hospital Mortality - Source: https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Zhou, Jingmin et al. (2021), Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database, Dryad, Dataset, https://doi.org/10.5061/dryad.0p2ngf1zd) 
-8. CC0: Public Domain for Kidney Disease - Source:
-    - @misc{Dua:2019 ,
-    - author = "Dua, Dheeru and Graff, Casey",
-    - year = "2017",
-    - title = "{UCI} Machine Learning Repository",
-    - url = "http://archive.ics.uci.edu/ml",
-    - institution = "University of California, Irvine, School of Information and Computer Sciences" }
+2. CC BY-NC-SA 4.0 License for the Breast Cancer Dataset 
+    - Original Source: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data 
+    - File into the app: /opt/irisapp/data/breast-cancer.csv
+    - Persistent Class: dc.data.health.BreastCancer
+3. CC0: Public Domain for Diabetes Dataset 
+    - Original Source: https://www.kaggle.com/mathchi/diabetes-data-set
+    - File into the app: /opt/irisapp/data/diabetes.csv
+    - Persistent Class: dc.data.health.Diabetes
+4. CC0: Public Domain for Heart Disease 
+    - Original Source: https://data.world/informatics-edu/heart-disease-prediction
+    - File into the app: /opt/irisapp/data/heart-disease.csv
+    - Persistent Class: dc.data.health.HeartDisease
+5. CC0: Public Domain for Maternal Health Risk 
+    - Original Source: https://www.kaggle.com/yasserhessein/classification-maternal-health-5-algorithms-ml/data
+    - File into the app: /opt/irisapp/data/maternal_health_risk.csv
+    - Persistent Class: dc.data.health.MaternalHealthRisk 
+6. CC0: Public Domain for World Life Expectancy 
+    - Original Source: https://www.kaggle.com/kumarajarshi/life-expectancy-who - The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang.
+    - File into the app: /opt/irisapp/data/life_expectancy.csv
+    - Persistent Class: dc.data.health.LifeExpectancy 
+7. CC0 1.0 Universal (CC0 1.0) Public Domain Dedication for Hospital Mortality 
+    - Original Source: https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Zhou, Jingmin et al. (2021), Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database, Dryad, Dataset, https://doi.org/10.5061/dryad.0p2ngf1zd) 
+    - File into the app: /opt/irisapp/data/hospital_mortality.csv
+    - Persistent Class: dc.data.health.HospitalMortality
+8. CC0: Public Domain for Kidney Disease 
+    - Original Source:
+        - @misc{Dua:2019 ,
+        - author = "Dua, Dheeru and Graff, Casey",
+        - year = "2017",
+        - title = "{UCI} Machine Learning Repository",
+        - url = "http://archive.ics.uci.edu/ml",
+        - institution = "University of California, Irvine, School of Information and Computer Sciences" }
+    - File into the app: /opt/irisapp/data/kidney_disease.csv
+    - Persistent Class: dc.data.health.KidneyDisease

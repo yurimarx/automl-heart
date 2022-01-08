@@ -23,7 +23,12 @@
     - Original Source: https://www.kaggle.com/saurabhshahane/in-hospital-mortality-prediction (Zhou, Jingmin et al. (2021), Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database, Dryad, Dataset, https://doi.org/10.5061/dryad.0p2ngf1zd) 
     - File into the app: /opt/irisapp/data/hospital_mortality.csv
     - Persistent Class: dc.data.health.HospitalMortality
-8. CC0: Public Domain for Kidney Disease 
+8. CC0 1.0 Universal (CC0 1.0) Public Domain for Pollution Deaths dataset 
+    - Original Source: https://www.kaggle.com/mathurinache/pollution-deaths 
+    - File into the app: /opt/irisapp/data/pollution-deaths-from-fossil-fuels.csv
+    - Persistent Class: dc.data.health.PollutionDeaths
+
+9. CC0: Public Domain for Kidney Disease 
     - Original Source:
         - @misc{Dua:2019 ,
         - author = "Dua, Dheeru and Graff, Casey",

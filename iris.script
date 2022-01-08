@@ -11,6 +11,7 @@
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/maternal_health_risk.csv",",","dc.data.health.MaternalHealthRisk") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/hospital_mortality.csv",",","dc.data.health.HospitalMortality") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/life_expectancy.csv",",","dc.data.health.LifeExpectancy") 
+    Do ##class(community.csvgen).Generate("/opt/irisapp/data/pollution-deaths-from-fossil-fuels.csv",",","dc.data.health.PollutionDeaths") 
     ;zpm "load /opt/irisapp/ -v"
     zpm "load /opt/irisapp/ -v -Dfolder=irisapp"
 

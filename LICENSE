@@ -27,8 +27,11 @@
     - Original Source: https://www.kaggle.com/mathurinache/pollution-deaths 
     - File into the app: /opt/irisapp/data/pollution-deaths-from-fossil-fuels.csv
     - Persistent Class: dc.data.health.PollutionDeaths
-
-9. CC0: Public Domain for Kidney Disease 
+9. Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO) for Dementia dataset 
+    - Original Source: https://www.kaggle.com/shashwatwork/dementia-prediction-dataset 
+    - File into the app: /opt/irisapp/data/dementia.csv
+    - Persistent Class: dc.data.health.Dementia
+10. CC0: Public Domain for Kidney Disease 
     - Original Source:
         - @misc{Dua:2019 ,
         - author = "Dua, Dheeru and Graff, Casey",

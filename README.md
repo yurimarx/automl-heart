@@ -15,8 +15,10 @@ This application provides real data (without personal data) for some of these to
  - **Maternal Risk dataset**: data to predict maternal risk level
  - **Hospital Mortality dataset**: data to predict hospital mortality
  - **World Life Expectancy dataset**: data to predict life expectancy based in the country social and health indicators 
+ - **Pollution Deaths from fossil fuels dataset**: data to predict deaths caused fossil fuels pollution
+ - **Dementia dataset**: data to predict dementia
 
-**NOW WE HAVE 7 DATASETS!!!**
+**NOW WE HAVE 9 DATASETS!!!**
 
 ## Installation
 1. Clone/git pull the repo into any local directory
@@ -84,6 +86,18 @@ FROM dc_data_health.HospitalMortality
 SELECT 
 AdultMortality, Alcohol, BMI, Country, Diphtheria, GDP, HIVAIDS, HepatitisB, IncomeCompositionOfResources, InfantDeaths, LifeExpectancy, Measles, PercentageExpenditure, Polio, Population, Schooling, Status, Thinness1To19Years, Thinness5To9Years, TotalExpenditure, UnderFiveDeaths, Year
 FROM dc_data_health.LifeExpectancy
+```
+11. Do a Select to the Pollution Deaths dataset:
+```
+SELECT 
+Country, CountryCode, DeathYear, ExcessMortality
+FROM dc_data_health.PollutionDeaths
+```
+12. Do a Select to the Dementia dataset:
+```
+SELECT 
+ASF, Age, CDR, EDUC, Genre, Hand, MMSE, MRDelay, Outcome, SES, Visit, eTIV, nWBV
+FROM dc_data_health.Dementia
 ```
 
 ### To install with ZPM

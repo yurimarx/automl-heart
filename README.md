@@ -9,7 +9,7 @@ According to the WHO, The top global causes of death, in order of total number o
 
 This application provides real data (without personal data) for some of these top 10 scenarios of diseases identified by WHO. The datasets for this application are:
 
-![10 real health datasets](image https://github.com/yurimarx/automl-heart/blob/56b2f288666ac0548c81cf1d5de5452c66af55c4/10realdatasets.png "10 real health datasets")
+![10 real health datasets](https://github.com/yurimarx/automl-heart/blob/56b2f288666ac0548c81cf1d5de5452c66af55c4/10realdatasets.png "10 real health datasets")
 
 
  - **Diabetes dataset**: data to predict diabetes diagnosis

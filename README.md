@@ -17,8 +17,9 @@ This application provides real data (without personal data) for some of these to
  - **World Life Expectancy dataset**: data to predict life expectancy based in the country social and health indicators 
  - **Pollution Deaths from fossil fuels dataset**: data to predict deaths caused fossil fuels pollution
  - **Dementia dataset**: data to predict dementia
+ - **Hepatitis dataset**: data to predict death risk caused hepatitis symptoms evolution
 
-**NOW WE HAVE 9 DATASETS!!!**
+**NOW WE HAVE 10 DATASETS!!!**
 
 ## Installation
 1. Clone/git pull the repo into any local directory
@@ -99,6 +100,12 @@ SELECT
 ASF, Age, CDR, EDUC, Genre, Hand, MMSE, MRDelay, Outcome, SES, Visit, eTIV, nWBV
 FROM dc_data_health.Dementia
 ```
+13. Do a Select to the Hepatitis Death risk dataset:
+```
+SELECT 
+age, albumin, alkphosphate, anorexia, antivirals, ascites, bilirubin, fatigue, histology, liverbig, liverfirm, malaise, outcome, protime, sex, sgot, spiders, spleenpalpable, steroid, varices
+FROM dc_data_health.Hepatitis
+```
 
 ### To install with ZPM
 It's packaged with ZPM so it could be installed as:
@@ -140,7 +147,11 @@ zpm "install dataset-health"
     - Original Source: https://www.kaggle.com/shashwatwork/dementia-prediction-dataset 
     - File into the app: /opt/irisapp/data/dementia.csv
     - Persistent Class: dc.data.health.Dementia
-10. CC0: Public Domain for Kidney Disease 
+10. CC0 1.0 Universal (CC0 1.0) Public Domain for Hepatitis Death Risk dataset 
+    - Original Source: https://www.kaggle.com/codebreaker619/hepatitis-data 
+    - File into the app: /opt/irisapp/data/hepatitis.csv
+    - Persistent Class: dc.data.health.Hepatitis
+11. CC0: Public Domain for Kidney Disease 
     - Original Source:
         - @misc{Dua:2019 ,
         - author = "Dua, Dheeru and Graff, Casey",

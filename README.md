@@ -8,6 +8,10 @@ According to the WHO, The top global causes of death, in order of total number o
 3. Neonatal conditions – which include birth asphyxia and birth trauma, neonatal sepsis and infections, and preterm birth complications.
 
 This application provides real data (without personal data) for some of these top 10 scenarios of diseases identified by WHO. The datasets for this application are:
+
+![10 real health datasets](image https://github.com/yurimarx/automl-heart/blob/56b2f288666ac0548c81cf1d5de5452c66af55c4/10realdatasets.png "10 real health datasets")
+
+
  - **Diabetes dataset**: data to predict diabetes diagnosis
  - **Heart Disease dataset**: data to predict heart disease
  - **Kidney Disease dataset**: data to predict kidney disease
@@ -18,8 +22,6 @@ This application provides real data (without personal data) for some of these to
  - **Pollution Deaths from fossil fuels dataset**: data to predict deaths caused fossil fuels pollution
  - **Dementia dataset**: data to predict dementia
  - **Hepatitis dataset**: data to predict death risk caused hepatitis symptoms evolution
-
-**NOW WE HAVE 10 DATASETS!!!**
 
 ## Installation
 1. Clone/git pull the repo into any local directory

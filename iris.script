@@ -6,7 +6,7 @@
     zpm "install csvgen"
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/heart-disease.csv",",","dc.data.health.HeartDisease") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/breast-cancer.csv",",","dc.data.health.BreastCancer") 
-    Do ##class(community.csvgen).Generate("/opt/irisapp/data/diabetes.csv",",","dc.data.health.Diabetes") 
+    Do ##class(community.csvgen).Generate("/opt/irisapp/data/diabetes.csv",",","dc.data.health.Diabetes")  
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/kidney_disease.csv",",","dc.data.health.KidneyDisease") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/maternal_health_risk.csv",",","dc.data.health.MaternalHealthRisk") 
     Do ##class(community.csvgen).Generate("/opt/irisapp/data/hospital_mortality.csv",",","dc.data.health.HospitalMortality") 

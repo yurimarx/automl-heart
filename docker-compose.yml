@@ -1,6 +1,7 @@
 version: '3.6'
 services:
   iris:
+    init: true
     build: 
       context: .
       dockerfile: Dockerfile
@@ -10,4 +11,4 @@ services:
       - 52773:52773
       - 53773:53773
     volumes:
-      - ./iris-shared:/shared
+      - ./:/irisdev/app

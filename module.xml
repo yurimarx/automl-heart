@@ -2,11 +2,20 @@
 <Export generator="Cache" version="25">
   <Document name="dataset-health.ZPM">
     <Module>
+      <Dependencies>
+        <ModuleReference>
+          <Name>csvgen</Name>
+          <Version>*</Version>
+        </ModuleReference>
+      </Dependencies>
       <Name>dataset-health</Name>
       <Version>1.2.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.data.health.PKG"/>
+      <Invokes>
+        <Invoke Class="dc.data.health.Deploy" Method="run"></Invoke>
+      </Invokes>
     </Module>
   </Document>
 </Export>

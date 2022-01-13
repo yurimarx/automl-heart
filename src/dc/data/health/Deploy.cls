@@ -21,10 +21,7 @@ ClassMethod Download(source As %String, target As %String)
 ClassMethod run() As %Status
 {
     set sc = $$$OK
-    set $namespace = "USER"
     set sc = $SYSTEM.OBJ.LoadDir("/opt/irisapp/src/dc/data/health","ck")
-    set $namespace = "USER"
-
 
     Return sc
 }

@@ -13,9 +13,6 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.data.health.PKG"/>
-      <Invokes>
-        <Invoke Class="dc.data.health.Deploy" Method="run"></Invoke>
-      </Invokes>
     </Module>
   </Document>
 </Export>

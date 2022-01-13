@@ -9,7 +9,7 @@
         </ModuleReference>
       </Dependencies>
       <Name>dataset-health</Name>
-      <Version>1.2.0</Version>
+      <Version>1.2.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.data.health.PKG"/>
